@@ -9,7 +9,7 @@ function App() {
  
   return (
     <>
-      <div className="overflow-hidden scroll-smooth">
+      <div className="overflow-hidden">
       <SideNav/>
       <Main/>
       <AboutUs/>

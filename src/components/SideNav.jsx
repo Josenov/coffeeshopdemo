@@ -20,7 +20,7 @@ const SideNav = () => {
     return (
         <div>
 
-            <AiOutlineMenu onClick={handleBurguerMenu} className=" overflow-visible fixed top-4 right-4 z-[100] md:hidden size-11 text-gray-400" />
+            <AiOutlineMenu onClick={handleBurguerMenu} className=" overflow-visible fixed top-4 right-4 z-[100] md:hidden size-11 text-cyan-300" />
 
             <img className="absolute w-96 h-auto mt-20" src="https://1000logos.net/wp-content/uploads/2022/09/Stars-Coffee-Logo.png" alt="" />
 
