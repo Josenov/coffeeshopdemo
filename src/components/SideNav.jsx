@@ -8,8 +8,10 @@ const SideNav = () => {
 
     const handleBurguerMenu = () => {
         setBurguerMenu(!burguerMenu)
-        console.log("state changed")
+        //console.log("state changed")
     }
+
+    
 
 
 
@@ -25,7 +27,7 @@ const SideNav = () => {
             <div className=" absolute md:flex items-center justify-center p-4 gap-6 hidden text-2xl text-white font-bold">
                 <a href="#main">Home</a>
                 <a href="#about">About</a>
-                <a href="#pages">Pages</a>
+                <a href="#products">Pages</a>
                 <a href="#contact">Contact</a>
             </div>
 

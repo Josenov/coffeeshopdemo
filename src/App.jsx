@@ -9,12 +9,14 @@ function App() {
  
   return (
     <>
-
+      <div className="overflow-hidden scroll-smooth">
       <SideNav/>
       <Main/>
       <AboutUs/>
       <Products/>
       <Footer/>
+      </div>
+      
     </>
   )
 }
