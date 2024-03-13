@@ -29,7 +29,7 @@ const SideNav = () => {
 
 
 
-            <AiOutlineMenu onClick={handleBurguerMenu} className="absolute top-4 right-4 z-[99] md:hidden size-9 text-white" />
+            <AiOutlineMenu onClick={handleBurguerMenu} className="fixed  top-4 right-4 z-[99] md:hidden size-11 text-gray-400" />
 
             {
                 burguerMenu ?
@@ -45,9 +45,9 @@ const SideNav = () => {
                             <AiOutlineCoffee size={30} className="flex justify-center w-[95%]" />
                             <span className="pl-2">About</span>
                         </a>
-                        <a onClick={handleBurguerMenu} href="#pages" className="flex">
+                        <a onClick={handleBurguerMenu} href="#products" className="flex">
                             <AiOutlineShopping size={30} className="flex justify-center w-[95%]" />
-                            <span className="pl-2">Services</span>
+                            <span className="pl-2">Products</span>
                         </a>
                         <a onClick={handleBurguerMenu} href="#contact" className="flex">
                             <AiOutlineMail size={30} className="flex justify-center w-[95%]" />
