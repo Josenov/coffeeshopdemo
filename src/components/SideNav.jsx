@@ -16,7 +16,9 @@ const SideNav = () => {
 
 
     return (
-        <div className="flex justify-center">
+        <div>
+
+            <AiOutlineMenu onClick={handleBurguerMenu} className=" overflow-visible fixed top-4 right-4 z-[100] md:hidden size-11 text-gray-400" />
 
             <img className="absolute w-96 h-auto mt-20" src="https://1000logos.net/wp-content/uploads/2022/09/Stars-Coffee-Logo.png" alt="" />
 
@@ -29,7 +31,7 @@ const SideNav = () => {
 
 
 
-            <AiOutlineMenu onClick={handleBurguerMenu} className="fixed  top-4 right-4 z-[99] md:hidden size-11 text-gray-400" />
+            
 
             {
                 burguerMenu ?
