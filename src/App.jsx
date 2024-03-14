@@ -9,12 +9,14 @@ function App() {
  
   return (
     <>
-
+      <div className="overflow-hidden">
       <SideNav/>
       <Main/>
       <AboutUs/>
       <Products/>
       <Footer/>
+      </div>
+      
     </>
   )
 }
