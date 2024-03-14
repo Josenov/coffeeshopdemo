@@ -10,7 +10,7 @@ const AboutUs = () => {
                     <h3 className='text-2xl p-2'>About Us</h3>
                     <h4 className='text-lg mb-2'>Welcome to Coffee Shop!</h4>
                     <p className="text-sm font-bold">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Rerum tempora quos deleniti, aliquam numquam illum laborum consequuntur aut possimus tempore inventore ipsam alias sed sapiente beatae obcaecati dignissimos! Ad, tenetur.</p>
-                    <button className="bg-cyan-400  hover:bg-cyan-500 text-white font-bold py-2 px-4 rounded m-1">Read More</button>
+                    <button className="bg-[#42D5C0]  hover:bg-cyan-500 text-white font-bold py-2 px-4 rounded m-1">Read More</button>
                 </div>
 
 
