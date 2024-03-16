@@ -20,7 +20,7 @@ const Main = () => {
 
         <>
         
-        <div  id='main' className="flex items-center justify-center text-center  text-white font-thin ">
+        <div  id='main' className="flex items-center justify-center text-center  text-white font-semibold  md:font-thin ">
             <div className=" text-center absolute z-[50] justify-center ">
                 <p className="lg:mt-[150px] text-3xl md:w-96">"Sip, Savor, Smile: Where Every Cup Tells a Story!"</p>
                 <button onClick={handleReadMore} className="bg-[#42D5C0] hover:bg-cyan-400 text-white font-bold py-2 px-4 rounded mt-5">Read More</button>

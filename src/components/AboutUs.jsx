@@ -28,7 +28,7 @@ const AboutUs = () => {
 
             </div>
 
-            <div className="relative flex items-center justify-center mt-[-200px] md:mt-[-300px]">
+            <div className="w-full flex items-center justify-center mt-[-300px] md:mt-[-300px]">
                     <Carousel />
             </div>
 
