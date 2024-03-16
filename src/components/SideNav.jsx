@@ -18,18 +18,20 @@ const SideNav = () => {
 
 
     return (
-        <div>
+        <div className="md:flex items-center justify-center">
 
-            <AiOutlineMenu onClick={handleBurguerMenu} className=" overflow-visible fixed top-4 right-4 z-[100] md:hidden size-11 text-[#42D5C0]" />
+            <AiOutlineMenu onClick={handleBurguerMenu} className="  fixed top-4 right-4 z-[100] md:hidden size-11 text-[#42D5C0]" />
 
-            <img className="absolute w-96 h-auto mt-20" src="https://1000logos.net/wp-content/uploads/2022/09/Stars-Coffee-Logo.png" alt="" />
-
-            <div className=" absolute md:flex items-center justify-center p-4 gap-6 hidden text-2xl text-white font-bold">
+            
+            <div className=" absolute md:flex items-center justify-center mt-[80px]  p-4 gap-6 hidden text-2xl text-white font-thin">
                 <a href="#main">Home</a>
                 <a href="#about">About</a>
-                <a href="#products">Pages</a>
+                <a href="#products">Products</a>
                 <a href="#contact">Contact</a>
             </div>
+
+            <img className="absolute flex justify-center w-96 h-auto mt-10 md:mt-[400px] " src="https://1000logos.net/wp-content/uploads/2022/09/Stars-Coffee-Logo.png" alt="" />
+
 
 
 

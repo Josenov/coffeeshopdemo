@@ -13,7 +13,7 @@ const Carousel = () => {
             "title": "Coffee-Shop-2",
             "url": "https://thumbor.forbes.com/thumbor/fit-in/900x510/https://www.forbes.com/advisor/wp-content/uploads/2023/01/How_To_Start_A_Coffee_Shop_-_article_image.jpg"
         },
-        
+
         {
             "title": "Coffee-Shop-4",
             "url": "https://majestycoffee.com/cdn/shop/articles/How_Much_Does_a_Coffee_Shop_Make__A_Concise_Analysis.jpg"
@@ -45,40 +45,40 @@ const Carousel = () => {
 
 
     return (
-        <div className="flex items-center justify-center p-1">
-            
+        <div className="flex items-center justify-center   p-1 lg:w-[800px] lg:h-[400px] mb-3">
+
             <div className='flex gap-5 items-center justify-center'>
-            <button onClick={handlePrevBtn} type="button" className="flex absolute left-0 px-4 cursor-pointer group focus:outline-none" data-carousel-prev>
-            <span className="inline-flex justify-center items-center w-8 h-8 rounded-full sm:w-10 sm:h-10 bg-white/30 dark:bg-gray-800/30 group-hover:bg-white/50 dark:group-hover:bg-gray-800/60 group-focus:ring-4 group-focus:ring-white dark:group-focus:ring-gray-800/70 group-focus:outline-none">
-                <svg className="w-5 h-5 text-white sm:w-6 sm:h-6 dark:text-gray-800" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M15 19l-7-7 7-7"></path></svg>
-                <span className="hidden">Previous</span>
-            </span>
-        </button>
-        <img className='object-cover w-full h-96' src={images[index].url} alt="" />
-        <button onClick={handleNextBtn} type="button" className="flex absolute right-0  justify-center items-center px-4 h-full cursor-pointer group focus:outline-none" data-carousel-next>
-            <span className="inline-flex justify-center items-center w-8 h-8 rounded-full sm:w-10 sm:h-10 bg-white/30 dark:bg-gray-800/30 group-hover:bg-white/50 dark:group-hover:bg-gray-800/60 group-focus:ring-4 group-focus:ring-white dark:group-focus:ring-gray-800/70 group-focus:outline-none">
-                <svg className="w-5 h-5 text-white sm:w-6 sm:h-6 dark:text-gray-800" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M9 5l7 7-7 7"></path></svg>
-                <span className="hidden" >Next</span>
-            </span>
-        </button>
+                <button onClick={handlePrevBtn} type="button" className="flex absolute left-0 px-4 cursor-pointer group focus:outline-none" data-carousel-prev>
+                    <span className="inline-flex justify-center items-center w-8 h-8 rounded-full sm:w-10 sm:h-10 bg-white/30 dark:bg-gray-800/30 group-hover:bg-white/50 dark:group-hover:bg-gray-800/60 group-focus:ring-4 group-focus:ring-white dark:group-focus:ring-gray-800/70 group-focus:outline-none">
+                        <svg className="w-5 h-5 text-white sm:w-6 sm:h-6 dark:text-gray-800" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M15 19l-7-7 7-7"></path></svg>
+                        <span className="hidden">Previous</span>
+                    </span>
+                </button>
+                <img className='absolute  w-[500px] md:w-[900px] object-cover' src={images[index].url} alt="" />
+                <button onClick={handleNextBtn} type="button" className="flex absolute right-0  justify-center items-center px-4 h-full cursor-pointer group focus:outline-none" data-carousel-next>
+                    <span className="inline-flex justify-center items-center w-8 h-8 rounded-full sm:w-10 sm:h-10 bg-white/30 dark:bg-gray-800/30 group-hover:bg-white/50 dark:group-hover:bg-gray-800/60 group-focus:ring-4 group-focus:ring-white dark:group-focus:ring-gray-800/70 group-focus:outline-none">
+                        <svg className="w-5 h-5 text-white sm:w-6 sm:h-6 dark:text-gray-800" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M9 5l7 7-7 7"></path></svg>
+                        <span className="hidden" >Next</span>
+                    </span>
+                </button>
             </div>
 
         </div>
 
-        
-            
-        
 
 
 
-    
 
 
-    
+
+
+
+
+
 
 
 
     )
 }
 
-            export default Carousel
+export default Carousel

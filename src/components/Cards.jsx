@@ -20,7 +20,7 @@ const Cards = () => {
     const coffees = data
 
   return (
-    <div  className='flex flex-wrap justify-center shadow-md'>
+    <div  className='flex flex-wrap justify-center shadow-md gap-4'>
         
 
                 {
@@ -35,7 +35,7 @@ const Cards = () => {
                                 <div key={index} >
                                     
 
-                                    <div className="max-w-sm rounded overflow-hidden shadow-lg">
+                                    <div className="max-w-sm rounded overflow-hidden shadow-lg min-h-full">
                                     
                                         <img className="w-full" src={coffee.image} />
                                         <div className="px-6 py-4">
@@ -53,7 +53,7 @@ const Cards = () => {
 
                             )
 
-                        }) : <div> <h2>No se en encontraron resultados</h2></div>
+                        }) : <div> <h2>No se encontraron resultados</h2></div>
 
 
                 }

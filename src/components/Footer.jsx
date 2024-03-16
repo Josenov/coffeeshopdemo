@@ -6,6 +6,12 @@ const Footer = () => {
             <footer className="flex flex-col items-center justify-center">
                 <aside className="flex flex-col items-center justify-center m-6 gap-2">
                     <img className=" w-32 h-auto" src="https://1000logos.net/wp-content/uploads/2022/09/Stars-Coffee-Logo.png" alt="" />
+                    <div className="flex gap-2 text-xs mb-5">
+                        <a href="#main">Home</a>
+                        <a href="#about">About</a>
+                        <a href="#products">Products</a>
+                        <a href="#contact">Contact</a>
+                    </div>
                     <p className="text-sm">Developed by Jose Novillo</p>
                     <p>Copyright © 2024 - All right reserved</p>
                 </aside>
