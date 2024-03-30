@@ -7,7 +7,7 @@ const Contact = () => {
             <div className="container  mx-auto md:px-6">
                 
                 <section className="md:flex flex-col text-center">
-                    <h3 className='md:text-4xl text-2xl p-2 text-center font-semibold mb-4'>Contact Us!</h3>
+                    <h3 className='md:text-5xl text-3xl p-2 text-center font-bold mb-4'>Contact Us!</h3>
                     <div
                         className="block  rounded-lg bg-white shadow-[0_2px_15px_-3px_rgba(0,0,0,0.07),0_10px_20px_-2px_rgba(0,0,0,0.04)] ">
                         <div className="flex flex-wrap flex-col items-center">
@@ -18,9 +18,9 @@ const Contact = () => {
                                         allowFullScreen></iframe>
                                 </div>
                             </div>
-                            <div className=" shrink-0 grow-0 basis-auto md:w-6/12 xl:w-8/12 flex items-center justify-center">
+                            <div className=" shrink-0 grow-0 basis-auto md:w-6/12 xl:w-8/12 flex items-center justify-center ml-[-45px] mt-10">
                                 <div className="flex flex-wrap justify-center px-3 pt-12 pb-12 md:pb-0 lg:pt-0">
-                                    <div className="mb-12 shrink-0 grow-0 basis-auto px-3 md:w-6/12 md:px-6 lg:w-full xl:w-6/12 xl:px-12">
+                                    <div className="mb-12 shrink-0 grow-0 basis-auto px-3 md:w-6/12 md:px-6 lg:w-full xl:w-6/12 xl:px-12 ">
                                         <div className="flex  justify-center">
                                             <div className="flex items-center justify-center">
                                                 <div className="md:inline-block rounded-md bg-primary-100 p-4 text-primary">

@@ -14,7 +14,7 @@ const Products = () => {
             
             <div id='products' className="flex flex-col justify-center ">
             
-                <p className=' lg:relative text-2xl font-bold text-center md:text-5xl mb-4 mt-40 '>Our Products!</p>
+                <p className=' lg:relative text-3xl font-bold text-center md:text-5xl mb-4 mt-40 '>Our Products!</p>
                 <Cards/>
                 
             </div>
