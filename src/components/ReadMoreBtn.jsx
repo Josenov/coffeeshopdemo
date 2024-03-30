@@ -16,7 +16,7 @@ const ReadMoreBtn = ({ text, maxLength=50 }) => {
             </p>
             <button
                 onClick={toggleShowFullText}
-                className="bg-[#42D5C0] hover:bg-cyan-400 text-white font-bold py-2 px-4 rounded mt-5"
+                className="bg-[#42D5C0]  text-white font-bold py-2 px-4 rounded mt-5"
             >
                 {showFullText ? 'Read Less' : 'Read More'}
             </button>

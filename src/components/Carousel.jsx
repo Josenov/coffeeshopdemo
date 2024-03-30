@@ -37,7 +37,7 @@ const Carousel = () => {
             } else {
                 setIndex(0)
             }
-        }, 4000)
+        }, 3000)
         return () => {
             clearInterval(timeCards)
         }
