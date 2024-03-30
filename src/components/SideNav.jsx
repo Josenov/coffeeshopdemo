@@ -20,7 +20,7 @@ const SideNav = () => {
     return (
         <div className="md:flex items-center justify-center">
 
-            <AiOutlineMenu onClick={handleBurguerMenu} className="  fixed top-4 right-4 z-[100] md:hidden size-11 text-[#42D5C0]" />
+            <AiOutlineMenu onClick={handleBurguerMenu} className="  fixed top-4 right-4 z-[100] md:hidden size-8 text-[#42D5C0]" />
 
             
             <div className=" absolute md:flex items-center justify-center mt-[80px]  p-4 gap-6 hidden text-2xl text-white font-thin">
